@@ -4,7 +4,8 @@
 This project is a simulation of an Air Traffic Control (ATC) system using POSIX-compliant C programs. The system includes several processes representing planes, airports, an air traffic controller, passengers, and a cleanup process. Each entity communicates using inter-process communication (IPC) techniques and runway allocation is synchronized using semaphores.
 
 ## Project Structure
-![ATC System Diagram](Architecture.png)
+![image](https://github.com/Rakul-Chauhan/Air-Traffic-Control-System/assets/139129716/ab459240-ab43-4a8e-a0bf-c5c5aee6b778)
+
 The system consists of the following components:
 
 1. **Plane Process (`plane.c`):** 
